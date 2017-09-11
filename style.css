@@ -1,0 +1,114 @@
+*{
+	/*border: 1px solid green;*/
+	font-family: Helvetica, sans-serif;
+}
+.container{
+	width: 1400px;
+	margin: 0 auto;
+	}
+
+.header{
+	background-image: url(assets/images/header-bg@2x.png);
+	color: white;
+	padding: 50px;
+	padding-top:15px;
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.header .sub_content{
+	display: inline-block;
+	width: 49%;
+	vertical-align: top;
+}
+.header .sub_content  h1{
+	 
+	 font-weight: bold;
+	 font-size: 50px;
+}
+.header img {
+	width: 100%;
+}
+.header nav {
+	margin-bottom: 40px;
+}
+.header nav ul {
+	list-style: none;
+}
+
+.header nav li {
+	display: inline-block;
+	margin: 0 10px;
+}
+.header nav li a {
+	text-decoration: none;
+	color: white;	
+}
+
+.header nav li:first-child{
+	margin-right: 70%;	
+	font-weight: bold;
+}
+
+.header button {
+	margin-right: 20px;
+	width: 100px;
+	height: 35px;
+	border-radius: 10px;
+}
+.header button:first-child {
+	background-color: #D84B4B;
+}
+
+.header button:last-child{
+	background-color: #6A8BD6;
+}
+#selling_pts_wrapper, #pricing_wrapper{
+	width: 90%;
+	margin: 0 auto;
+}
+
+#selling_pts_wrapper header, #pricing_wrapper header {
+	text-align: center;
+	margin: 0 auto;
+}
+#selling_pts_wrapper h1, #pricing_wrapper h1 {
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+}
+
+#selling_pts_wrapper p {
+	font-weight: normal;
+	font-size: 16px;
+    line-height: 25px; 
+}
+
+#selling_pts, #sm_prices{
+	width: 90%;
+	margin: 0 auto;
+}
+
+.selling_pt{
+	width:17%;
+	display: inline-block;
+	vertical-align: top;	
+    padding:7%;
+    height: 300px;
+}
+.selling_pt img {
+	display: block;
+	margin: 0 auto;
+	height: 50px;
+	width: 50px;
+}
+
+.sm_price{
+	width:17%;
+	display: inline-block;
+	vertical-align: top;	
+    margin:3.3%;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 400px;
+}
