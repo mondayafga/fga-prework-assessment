@@ -2,11 +2,35 @@
 	/*border: 1px solid green;*/
 	font-family: Helvetica, sans-serif;
 }
+/*Main Wrapper*/
 #container{
 	width: 1200px;
 	margin: 0 auto;
 }
 
+/*sub wrappers*/
+.wrapper{
+	text-align: center;
+}
+
+.wrapper header h1 {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+/*Rules to apply to any paragraph text*/
+.info-text {
+	font-weight: normal;
+	font-size: 16px;
+    line-height: 25px; 
+ }
+
+/*Style rule navigation component hover action*/
+nav ul li:hover{
+	background-color:#5D6D7E;
+}
+
+/* Style rules for Header section*/
 #header{
 	background-image: url(assets/images/header-bg@2x.png);
 	color: white;
@@ -66,26 +90,11 @@
 	background-color: #6A8BD6;
 }
 
-.wrapper{
-	text-align: center;
-}
-
-.wrapper header h1 {
-	font-weight: bold;
-	font-size: 20px;
-}
-
+/*Style rules for selling point section*/
 #selling_pts{
 	  border-bottom: 1px dotted black;
 	  margin-bottom: 100px;	  
 } 
-
-
-.info-text {
-	font-weight: normal;
-	font-size: 16px;
-    line-height: 25px; 
- }
 
 .selling_pt{
 	width:20%;
@@ -101,6 +110,8 @@
 	height: 50px;
 	width: 50px;
 }
+
+/*Style rules to apply pricing section*/
 #pricing{
 	margin-bottom: 100px;
 }
@@ -161,6 +172,8 @@
 	font-size: 40px;
 }
 
+
+/*Style rules to apply to contact us section*/
 #contact_us article, #contact_us form{
 	width: 35%;
 	display: inline-block;
@@ -175,10 +188,14 @@
 	border: 1px solid #95989A;
 }
 
-#contact_us form input, #contact_us form textarea{
+#contact_us form input{
    margin: 10px;
    display: block;
    width: 70%;
+}
+#contact_us form [type="textarea"]
+{
+  height:100px;
 }
 
 #contact_us form [type="button"]{
@@ -190,6 +207,7 @@
     margin-right: 100px;
 }
 
+/*Style rules to apply to footer section*/
 footer{
 	margin-top: 20px;
 }
@@ -226,6 +244,3 @@ footer nav li:nth-last-child(2){
 	margin-left: 20%;
 }
 
-nav ul li:hover{
-	background-color:#5D6D7E;
-}
